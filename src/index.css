@@ -1,0 +1,55 @@
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  
+  :root {
+    --main-bg: #ffffff;
+    --header-color: #f9f9fa;
+    --nav-links-color: rgba(0, 0, 0, 0.6);
+    --main-text-color: #000000;
+    --sidebar-bg-color: #fafafa;
+    --main-accent-color: #007aff;
+    --pickup-color: #6e6e73;
+    --secondary-text-color: rgba(110, 110, 115, 0.6);
+    --add-btn-color: #ffffff;
+    --navbar-color: #f2f2f2;
+    --sih-color: #ffffff;
+    --brand-color: rgba(110,110,115,0.6);
+    background-color: #ffffff;
+    --cart-color: #ffffff;
+    --shadow-color: #f2f2f2;
+    --info-text-color: #454e50;
+  }
+
+  /*
+  :root {
+    --main-bg: #000000;
+    --header-color: #292929;
+    --nav-links-color: #939399;
+    --main-text-color: #ffffff;
+    --sidebar-bg-color: #1c1c1e;
+    --main-accent-color: #0984ff;
+    --pickup-color: #939399;
+    --secondary-text-color: #939399;
+    --add-btn-color: #323233;
+    --navbar-color: #1a1a1a;
+    --sih-color: #323233;
+    --brand-color: #939399;
+    background-color: #000000;
+    --cart-color: #1a1a1a;
+    --shadow-color: #000000;
+    --info-text-color: #939399;
+  }*/

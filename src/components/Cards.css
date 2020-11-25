@@ -1,0 +1,354 @@
+.cards {
+    padding: 2rem 2rem 2rem;
+    background: var(--main-bg);
+  }
+
+
+  .MuiPopover-paper {
+    outline: none !important;
+    position: absolute !important;
+    width: 50% !important;
+    height: 100% !important;
+    right: 0 !important;
+    top: 0 !important;
+    
+  }
+
+  .btn--cart--close--pop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+  }
+
+  .cards-btn{
+    margin-right: 30px;   
+    padding-top: 8px;
+    display: block;
+    position: absolute;
+    top: 145px;
+    right: 0px;
+    z-index: 1000;
+  }
+
+  .cards-btn:hover{
+    color: black;
+  }
+
+  .cards-btn-text{
+    color: var(--main-text-color);
+    text-decoration: none;
+    text-decoration-style: none;
+    text-decoration-color: #fff;
+    color: white;
+  }
+
+  .cards-btn-text:hover{
+    color: black;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  .cards-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 13.875rem;
+    color: var(--main-text-color);
+  }
+
+  h5 {
+    margin: 0px;
+    font-weight: 400;
+  }
+  
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    margin: 0 0 0 11.125rem;
+  }
+  
+  .cards__wrapper {
+    position: relative;
+    margin: 22px 0 22px;
+  }
+
+  .card-item-plus {
+    background: var(--sidebar-bg-color);
+    border-radius: 20px;
+    color: var(--main-accent-color);
+    height: 1rem;
+    position: absolute;
+    right: -24px;
+    margin: -2.2rem 2.5rem 0px 0px;
+  }
+  .card-item-plus-2 {
+    position: absolute;
+    background: var(--sidebar-bg-color);
+    border-radius: 20px;
+    color: var(--main-accent-color);
+    height: 1rem;
+    right: -35px;
+    margin: -2.2rem 2.5rem 0px 0px;
+  }
+  .card-item-plus-1 {
+    background: var(--sidebar-bg-color);
+    border-radius: 28px;
+    color: var(--main-accent-color);
+    height: 1rem;
+    position: absolute;
+    right: 54px;
+    margin: -2.2rem 2.5rem 0px 0px;
+  }
+  
+  .cards__items {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 24px;
+    margin: 0 0 24px;
+  }
+  
+  .cards__item {
+    display: flex;
+    flex: 1;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .cards__item__link {
+    display: flex;
+    height: 100px;
+    flex-flow: row;
+    width: 100%;
+    background: var(--sidebar-bg-color);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 6px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .cards__item__info {
+    display: flex;
+    height: 100px;
+    flex-flow: row;
+    width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 0px !important;
+  }
+  
+  .cards__item__pic-wrap {
+    padding: 10px 10px 10px 10px;
+    margin: 0px 1rem 0px 0px;
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+  }
+  
+  .fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
+  
+  
+  
+  .cards__item__img {
+    position: static;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: all 0.2s linear;
+  }
+  
+  .cards__item__img:hover {
+    transform: scale(1.1);
+  }
+  
+  .cards__item__info {
+    padding: 20px 30px 30px;
+  }
+
+  .cards__item__text {
+    display: flex;
+    margin: 0px;
+    height: 100px;
+    flex-flow: column;
+    width: 100%;
+  }
+  
+  .cards__item__name {
+    text-align: left;
+    padding: 4px 0px 0px;
+    margin: 0px;
+    color: var(--main-text-color);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .cards__item__brand {
+    text-align: left;
+    color: var(--main-text-color);
+    padding: 15px 0px 0px;
+    color: var(--brand-color);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    height: 16px;
+  }
+
+  .cards__item__bot__text {
+    padding: 6px 0px 0px;
+    margin: 0px;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+
+  }
+  .cards__item__SIH {
+    display: flex;
+    flex: row;
+    padding: 2px 7px 2px 7px;
+    margin: 0px;
+    background: var(--sih-color);
+    border-radius: 3px;
+    position: relative;
+    color: var(--main-text-color);
+    opacity: 0.6;
+    font-size: 9px;
+    line-height: 12px;
+    height: 12px;
+    font-weight: 400;
+  }
+  .cards__item__percent {
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    color: var(--main-accent-color);
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 16px;
+    height: 16px;
+  }
+
+  .cards__item__buttons {
+    position: absolute;
+    display: flex;
+    flex-flow: row-reverse;
+    right: 1px;
+    margin: 25px 0px;
+  }
+
+  .cards__item__btn2 {
+    margin: 0px 10px;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .cards__item {
+      margin-bottom: 2rem;
+      padding-left: 0rem;
+    }
+
+    .cards__items {
+      padding-left: 0px;
+    }
+
+    .cards__container {
+      margin: 0 0 0 0rem;
+    }
+
+    .cards-title {
+      margin: 0rem;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .card-item-plus {
+      display: none;
+    }
+    .card-item-plus-1 {
+      display: none;
+    }
+    .card-item-plus-2 {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .cards__item__pic-wrap {
+      display: flex;
+      margin: 0px 0rem 0px 0px;
+    }
+
+    .cards__item__link {
+      height: 170px;
+      min-width: 212px;
+      flex-flow: row;
+    }
+
+    .cards__item__buttons {
+      left: 30%;
+      right: auto;
+      margin-top: 95px;
+    }
+
+    .cards__item__text {
+      display: flex;
+      margin-bottom: 1rem;
+      margin-left: 20px;
+      height: 100px;
+      flex-flow: column;
+      width: 100%;
+      max-width: 225px;
+    }
+
+    .cards__items {
+      display: flex;
+      flex-flow: column;
+    }
+
+    .cards__item {
+      margin: 0px 0px 24px 0px;
+    }
+
+    .cards {
+      padding: 10px;
+    }
+
+    .cards__item__info {
+      display: flex;
+      height: 170px;
+      flex-flow: column;
+      width: 100%;
+      overflow: hidden;
+      text-decoration: none;
+      padding: 0px !important;
+    }
+  }
+
