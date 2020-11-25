@@ -13,7 +13,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <Router>
+      <Router basename={`${process.env.PUBLIC_URL}/`}>
         <Switch>
           <Route path='/category' exact component= {CategoryPage} />
           <Route path='/home/:type/:filter/:brand/:sort' exact component= {Home} />
